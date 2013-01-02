@@ -1,2 +1,6 @@
 set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
-colorscheme blacksea
+syntax on
+filetype on
+colors torte
+
+autocmd BufNewFile,BufRead *.cpp    set filetype=cpp
